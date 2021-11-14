@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/gzima/static/css/main.f0411e7e.chunk.css",
-    "main.js": "/gzima/static/js/main.e4cb5f4d.chunk.js",
-    "main.js.map": "/gzima/static/js/main.e4cb5f4d.chunk.js.map",
+    "main.css": "/gzima/static/css/main.bda4fe0e.chunk.css",
+    "main.js": "/gzima/static/js/main.aa33e90a.chunk.js",
+    "main.js.map": "/gzima/static/js/main.aa33e90a.chunk.js.map",
     "runtime-main.js": "/gzima/static/js/runtime-main.e9875f8a.js",
     "runtime-main.js.map": "/gzima/static/js/runtime-main.e9875f8a.js.map",
     "static/js/2.bba1fe30.chunk.js": "/gzima/static/js/2.bba1fe30.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.57798e5e.chunk.js": "/gzima/static/js/3.57798e5e.chunk.js",
     "static/js/3.57798e5e.chunk.js.map": "/gzima/static/js/3.57798e5e.chunk.js.map",
     "index.html": "/gzima/index.html",
-    "static/css/main.f0411e7e.chunk.css.map": "/gzima/static/css/main.f0411e7e.chunk.css.map",
+    "static/css/main.bda4fe0e.chunk.css.map": "/gzima/static/css/main.bda4fe0e.chunk.css.map",
     "static/js/2.bba1fe30.chunk.js.LICENSE.txt": "/gzima/static/js/2.bba1fe30.chunk.js.LICENSE.txt",
     "static/media/logo.6f29268e.png": "/gzima/static/media/logo.6f29268e.png",
     "static/media/ski-lift.4982df95.svg": "/gzima/static/media/ski-lift.4982df95.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e9875f8a.js",
     "static/js/2.bba1fe30.chunk.js",
-    "static/css/main.f0411e7e.chunk.css",
-    "static/js/main.e4cb5f4d.chunk.js"
+    "static/css/main.bda4fe0e.chunk.css",
+    "static/js/main.aa33e90a.chunk.js"
   ]
 }
