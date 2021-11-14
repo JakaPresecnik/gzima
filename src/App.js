@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Animated />
+      <div className="animation-wrapper">
+        <Animated />
+        <Animated />
+      </div>
     </div>
   );
 }

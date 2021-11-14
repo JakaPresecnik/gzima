@@ -1,15 +1,15 @@
 import snowflake from '../icons/snowflake.png'
-import '../styles/animation.css';
+import '../styles/animation.scss';
 
 function Animated () {
+    let snowflakes = [];
+    for(let i = 0; i < 20; i ++) {
+        snowflakes.push(i);
+    }
 
     return (
-        <div style={{height: '100vh'}}>
-            <img src={snowflake} style={{
-                position: 'relative',
-                bottom: '500px',
-                animation: 'fall 5s linear 2s infinite alternate'
-                }} />
+        <div className="snowfall">
+            {snowflakes.map(flake => (<img src={snowflake} className="snowflake"/>))}
         </div>
     )
 }
