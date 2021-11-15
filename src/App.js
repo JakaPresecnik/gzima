@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Animated from './components/Animated';
+import DoziviGolte from "./components/DoziviGolte.js";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Animated />
         <Animated />
       </div>
+      <DoziviGolte />
     </div>
   );
 }

@@ -8,5 +8,4 @@ body {
 }
 .App {
   min-height: 100vh;
-  background: linear-gradient(90deg, rgba(0,111,211,1) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 80%, rgba(0,111,211,1) 100%);
 }
