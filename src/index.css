@@ -9,3 +9,20 @@ body {
 .App {
   min-height: 100vh;
 }
+
+article {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  height: 200em;
+  z-index: 3;
+  position: relative;
+  background-color: #ffffffcc;
+  top: 5em;
+}
+article nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
