@@ -1,5 +1,7 @@
 @import ../styles-var.sass
-
+a 
+    color: inherit
+    text-decoration: inherit
 header
     position: static
 .header
@@ -99,6 +101,14 @@ header
             padding-left: 0.1em
         &:hover
             color: $zima-extra-svetla
+        .selected
+            background: $zima-temna
+            position: relative
+            z-index: 2
+            padding: 0.8em 0.8em 1.2em 0.8em 
+            border-bottom-left-radius: 0.8em
+            border-bottom-right-radius: 0.8em
+            transition: padding 0.5s ease
     #under-main-nav div
         position: relative
         z-index: 1
@@ -236,26 +246,15 @@ header
                     color: $zima-extra-svetla
                     border-bottom: 1px solid $zima-extra-svetla
     #logo
-        position: relative
         top: -2.74em
         text-align: center
-        @media (max-width: $screen-s)
-            text-align: right
-            right: 3em
-        @media (max-width: $screen-xxs)
-            text-align: left
-            top: 0
-            left: 1em
-        @media (min-width: $screen-l)
-            text-align: left
         img
             width: 7em
-            @media (max-width: $screen-xs)
-                width: 4.6em
-            @media (min-width: $screen-m)
-                width: 9em
+            padding-bottom: 2em
             @media (min-width: $screen-l)
-                padding: 3em 2em
+                width: 9em
+            @media (min-width: $screen-xl)
+                width: 10em
         
 // < screen-xxs DONE
 // screen-xxs - screen-xs DONE
