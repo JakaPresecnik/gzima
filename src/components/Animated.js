@@ -9,7 +9,7 @@ function Animated () {
 
     return (
         <div className="snowfall">
-            {snowflakes.map(flake => (<img src={snowflake} className="snowflake"/>))}
+            {snowflakes.map((flake,i) => (<img key={'key' + i} src={snowflake} className="snowflake"/>))}
         </div>
     )
 }
