@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/gzima/static/css/main.a5f1edba.chunk.css",
-    "main.js": "/gzima/static/js/main.94f08a57.chunk.js",
-    "main.js.map": "/gzima/static/js/main.94f08a57.chunk.js.map",
-    "runtime-main.js": "/gzima/static/js/runtime-main.02ce2607.js",
-    "runtime-main.js.map": "/gzima/static/js/runtime-main.02ce2607.js.map",
-    "static/js/2.bab17030.chunk.js": "/gzima/static/js/2.bab17030.chunk.js",
-    "static/js/2.bab17030.chunk.js.map": "/gzima/static/js/2.bab17030.chunk.js.map",
-    "static/js/3.77a194f0.chunk.js": "/gzima/static/js/3.77a194f0.chunk.js",
-    "static/js/3.77a194f0.chunk.js.map": "/gzima/static/js/3.77a194f0.chunk.js.map",
+    "main.css": "/gzima/static/css/main.ee8c2a9c.chunk.css",
+    "main.js": "/gzima/static/js/main.8eecfd6d.chunk.js",
+    "main.js.map": "/gzima/static/js/main.8eecfd6d.chunk.js.map",
+    "runtime-main.js": "/gzima/static/js/runtime-main.c0ec07e9.js",
+    "runtime-main.js.map": "/gzima/static/js/runtime-main.c0ec07e9.js.map",
+    "static/js/2.fba67872.chunk.js": "/gzima/static/js/2.fba67872.chunk.js",
+    "static/js/2.fba67872.chunk.js.map": "/gzima/static/js/2.fba67872.chunk.js.map",
+    "static/js/3.29668113.chunk.js": "/gzima/static/js/3.29668113.chunk.js",
+    "static/js/3.29668113.chunk.js.map": "/gzima/static/js/3.29668113.chunk.js.map",
     "index.html": "/gzima/index.html",
-    "static/css/main.a5f1edba.chunk.css.map": "/gzima/static/css/main.a5f1edba.chunk.css.map",
-    "static/js/2.bab17030.chunk.js.LICENSE.txt": "/gzima/static/js/2.bab17030.chunk.js.LICENSE.txt",
+    "static/css/main.ee8c2a9c.chunk.css.map": "/gzima/static/css/main.ee8c2a9c.chunk.css.map",
+    "static/js/2.fba67872.chunk.js.LICENSE.txt": "/gzima/static/js/2.fba67872.chunk.js.LICENSE.txt",
     "static/media/logo.6f29268e.png": "/gzima/static/media/logo.6f29268e.png",
-    "static/media/dozivi-golte.sass": "/gzima/static/media/placeholder.a738babc.jpg",
+    "static/media/animation.scss": "/gzima/static/media/placeholder.a738babc.jpg",
     "static/media/ski-lift.4982df95.svg": "/gzima/static/media/ski-lift.4982df95.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.02ce2607.js",
-    "static/js/2.bab17030.chunk.js",
-    "static/css/main.a5f1edba.chunk.css",
-    "static/js/main.94f08a57.chunk.js"
+    "static/js/runtime-main.c0ec07e9.js",
+    "static/js/2.fba67872.chunk.js",
+    "static/css/main.ee8c2a9c.chunk.css",
+    "static/js/main.8eecfd6d.chunk.js"
   ]
 }
