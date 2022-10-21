@@ -10,6 +10,7 @@ import DoziviGolteAktivnostiSmucanje from './DoziviGolteAktivnostiSmucanje';
 import DoziviGolteAktivnostiSnowbiking from './DoziviGolteAktivnostiSnowbiking';
 import DoziviGolteAktivnostiSola from './DoziviGolteAktivnostiSola';
 import DoziviGolteAktivnostiTekmovanja from './DoziviGolteAktivnostiTekmovanja';
+import DoziviGolteKulinarika from './DoziviGolteKulinarika';
 
 function DoziviGolte () {
     return (
@@ -29,6 +30,10 @@ function DoziviGolte () {
                         />
                     </span>
                     <span>
+                    <FormattedMessage
+                            id = "experience.culinary"
+                            defaultMessage="Culinary"
+                        />
                     </span>
                     <span></span>
                 </nav>
@@ -52,6 +57,7 @@ function DoziviGolte () {
                     <DoziviGolteAktivnostiPohodi />
                     <hr />
                     <DoziviGolteAktivnostiPlezanje />
+                    <DoziviGolteKulinarika />
                 </section>
             </article>
         </>
