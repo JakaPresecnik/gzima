@@ -3,30 +3,30 @@ import { FormattedMessage } from "react-intl";
 function DoziviGolteAktivnostiPlezanje () {
     return (
         <div>
-            <h2>
+            <h3>
                 <FormattedMessage
                     id = "experience.activities.climbing.header"
                     defaultMessage="Ice climbing"
                 />
-            </h2>
-            <h4>
+            </h3>
+            <h5>
                 <FormattedMessage
                     id = "experience.activities.climbing.whatis"
                     defaultMessage="What is ice climbing?"
                 />
-            </h4>
+            </h5>
             <p>
                 <FormattedMessage
                     id = "experience.activities.climbing.whatis.text"
                     defaultMessage="Ice climbing is another winter activity that will fill you with adrenaline. It's about climbing frozen waterfalls and inclined ice formations in ravines. In the wintertime, at Golte you will be able to get to know this attractive sport on the icy surface prepared for it."
                 />
             </p>
-            <h4>
+            <h5>
                 <FormattedMessage
                     id = "experience.activities.climbing.needwhat"
                     defaultMessage="What do you need for ice climbing?"
                 />
-            </h4>
+            </h5>
             <p>
                 <FormattedMessage
                     id = "experience.activities.climbing.needwhat.text"

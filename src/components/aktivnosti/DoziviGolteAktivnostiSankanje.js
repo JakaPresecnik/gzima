@@ -3,12 +3,12 @@ import { FormattedMessage } from "react-intl";
 function DoziviGolteAktivnostiSankanje () {
     return (
         <div>
-            <h2>
+            <h3>
                 <FormattedMessage
                     id = "experience.activities.sledding.header"
                     defaultMessage="Sledding"
                 />
-            </h2>
+            </h3>
             <p>
                 <FormattedMessage
                     id = "experience.activities.sledding.text.one"

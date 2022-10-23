@@ -1,0 +1,79 @@
+@import ../styles-var.sass
+  
+article
+    font-size: 16px
+    text-align: center
+    z-index: 3
+    width: 90%
+    text-align: center
+    margin: auto
+    position: relative
+    background-color: $zima-xxxs-transparent
+    nav
+        background-color: $zima-xxxs-svetla
+        border-bottom: 3px solid $zima-extra-svetla
+        width: 100%
+        position: sticky
+        top: 0
+        span
+            font-family: $font-subnav
+            text-transform: uppercase
+            font-size: 1.15em
+            display: inline
+            padding: 0.5em
+            transition: background 0.8s ease
+            &:hover
+                background-color: $zima-xxs-svetla
+                cursor: pointer
+                transition: background 0.8s ease
+            &:active
+                color: $zima-original
+        .selected
+            color: $zima-svetla
+    section
+        h2
+            font-family: $font-subheader
+            font-size: 1.8em
+            color: $zima-temna
+        .aktivnosti
+            display: inline-flex
+            align-items: center
+            justify-content: center
+            flex-wrap: wrap
+            figure
+                display: flex
+                position: relative
+                overflow: hidden
+                &:hover
+                    box-shadow: 0 0 0.3em 0.3em $zima-m-transparent
+                &:hover figcaption
+                    opacity: 1
+                    top: 0
+                img
+                    z-index: -1
+                    width: 18em
+                figcaption 
+                    background-color: $zima-xxxs-transparent
+                    position: absolute
+                    font-family: $font-subheader
+                    font-size: 1.5em
+                    color: $zima-extra-temna
+                    z-index: -1
+                    width: 10em
+                    padding: 0.6em
+                    opacity: 0
+                    border-bottom-right-radius: 30%
+                    top: -30%
+                    transition: all 0.6s ease
+                button
+                    display: block
+                    width: 80%
+                    margin: auto
+                    margin-top: 0.5em
+                    padding-top: 0.3em
+                    color: $zima-svetla
+                    font-size: 1.1em
+                    border: none
+                    background: none
+    @media (max-width: $screen-l) 
+            font-size: 14px

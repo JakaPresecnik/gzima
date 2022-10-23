@@ -3,24 +3,24 @@ import { FormattedMessage } from "react-intl";
 function DoziviGolteAktivnostiPohodi () {
     return (
         <div>
-            <h2>
+            <h3>
                 <FormattedMessage
                     id = "experience.activities.hiking.header"
                     defaultMessage="Hiking"
                 />
-            </h2>
+            </h3>
             <p>
                 <FormattedMessage
                     id = "experience.activities.hiking.text"
                     defaultMessage="Even in the winter you will be fascinated by the magnificent hiking trails covered with a soft white cower of snow on Golte. Put on your comfortable waterproof boots and set off exploring the snowy surroundings. You might go lucky and meet hidden mountain creatures such as chamois, she-deer, rabbits or capercaillies."
                 />
             </p>
-            <h3>
+            <h4>
                 <FormattedMessage
                     id = "experience.activities.hiking.subheader"
                     defaultMessage="Evening hike with torches"
                 />
-            </h3>
+            </h4>
             <p>
                 <FormattedMessage
                     id = "experience.activities.hiking.subheader.text.one"

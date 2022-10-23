@@ -3,12 +3,12 @@ import { FormattedMessage } from 'react-intl';
 function DoziviGolteAktivnostiOtroci () {
     return (
         <div>
-            <h2>
+            <h3>
                 <FormattedMessage
                     id = "experience.activities.children.header"
                     defaultMessage="Children's Playground"
                 />
-            </h2>
+            </h3>
             <p>
                 <FormattedMessage
                     id = "experience.activities.children.text"

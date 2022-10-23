@@ -12,24 +12,10 @@ body {
 .subheader {
   text-align: center;
   position: relative;
-  z-index: 3;
+  z-index: 4;
   padding: 0.7em;
   font-family: 'Kaushan Script', cursive;
   text-shadow: -3px 0 #00376A, 0 3px #00376A, 3px 0 #00376A, 0 -3px #00376A;
   font-size: 2.4em;
   color: #8DBF1D;
-}
-article {
-  width: 90%;
-  text-align: center;
-  margin: auto;
-  z-index: 3;
-  position: relative;
-  background-color: #ffffffcc;
-}
-article nav {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  background-color: #ffffff;
 }

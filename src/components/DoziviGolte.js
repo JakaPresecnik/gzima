@@ -1,16 +1,19 @@
 import { FormattedMessage } from 'react-intl';
+import { Route, Routes, NavLink } from 'react-router-dom'
 import '../styles/dozivi-golte.sass';
-import DoziviGolteAktivnostiKrpljanje from './DoziviGoletAktivnostIKrpljanje';
-import DoziviGolteAktivnostiOtroci from './DoziviGolteAktivnostiOtroci';
-import DoziviGolteAktivnostiPlezanje from './DoziviGolteAktivnostiPlezanje';
-import DoziviGolteAktivnostiPohodi from './DoziviGolteAktivnostiPohodi';
-import DoziviGolteAktivnostiSankanje from './DoziviGolteAktivnostiSankanje';
-import DoziviGolteAktivnostiServis from './DoziviGolteAktivnostiServis';
-import DoziviGolteAktivnostiSmucanje from './DoziviGolteAktivnostiSmucanje';
-import DoziviGolteAktivnostiSnowbiking from './DoziviGolteAktivnostiSnowbiking';
-import DoziviGolteAktivnostiSola from './DoziviGolteAktivnostiSola';
-import DoziviGolteAktivnostiTekmovanja from './DoziviGolteAktivnostiTekmovanja';
+import DoziviGolteAktivnostiKrpljanje from './aktivnosti/DoziviGolteAktivnostiKrpljanje';
+import DoziviGolteAktivnostiOtroci from './aktivnosti/DoziviGolteAktivnostiOtroci';
+import DoziviGolteAktivnostiPlezanje from './aktivnosti/DoziviGolteAktivnostiPlezanje';
+import DoziviGolteAktivnostiPohodi from './aktivnosti/DoziviGolteAktivnostiPohodi';
+import DoziviGolteAktivnostiSankanje from './aktivnosti/DoziviGolteAktivnostiSankanje';
+import DoziviGolteAktivnostiServis from './aktivnosti/DoziviGolteAktivnostiServis';
+import DoziviGolteAktivnostiSmucanje from './aktivnosti/DoziviGolteAktivnostiSmucanje';
+import DoziviGolteAktivnostiSnowbiking from './aktivnosti/DoziviGolteAktivnostiSnowbiking';
+import DoziviGolteAktivnostiSola from './aktivnosti/DoziviGolteAktivnostiSola';
+import DoziviGolteAktivnostiTekmovanja from './aktivnosti/DoziviGolteAktivnostiTekmovanja';
+import DoziviGolteAktivnosti from './DoziviGolteAktivnosti';
 import DoziviGolteKulinarika from './DoziviGolteKulinarika';
+import DoziviGolteMap from './DoziviGolteMap';
 
 function DoziviGolte () {
     return (
@@ -23,41 +26,47 @@ function DoziviGolte () {
             </h1>
             <article>
                 <nav>
-                    <span>
+                    <NavLink to='/experiencegolte/' end className={(navData) => navData.isActive ? "selected" : "" } >
+                        <span>
+                            <FormattedMessage
+                                id = "experience.activities"
+                                defaultMessage="Activities"
+                            />
+                        </span>
+                    </NavLink>
+                    <NavLink to='/experiencegolte/culinary' className={(navData) => navData.isActive ? "selected" : "" } >
+                        <span>
                         <FormattedMessage
-                            id = "experience.activities"
-                            defaultMessage="Activities"
-                        />
-                    </span>
-                    <span>
-                    <FormattedMessage
-                            id = "experience.culinary"
-                            defaultMessage="Culinary"
-                        />
-                    </span>
-                    <span></span>
+                                id = "experience.culinary"
+                                defaultMessage="Culinary"
+                            />
+                        </span>
+                    </NavLink>
+                    <NavLink to='/experiencegolte/map' className={(navData) => navData.isActive ? "selected" : "" } >
+                        <span>
+                            <FormattedMessage
+                                id = "experience.map"
+                                defaultMessage="Map"
+                            />
+                        </span>
+                    </NavLink>
                 </nav>
                 <section>
-                    <DoziviGolteAktivnostiSmucanje />
-                    <hr />
-                    <DoziviGolteAktivnostiOtroci />
-                    <hr />
-                    <DoziviGolteAktivnostiSola />
-                    <hr />
-                    <DoziviGolteAktivnostiServis />
-                    <hr />
-                    <DoziviGolteAktivnostiTekmovanja />
-                    <hr />
-                    <DoziviGolteAktivnostiSankanje />
-                    <hr />
-                    <DoziviGolteAktivnostiKrpljanje />
-                    <hr />
-                    <DoziviGolteAktivnostiSnowbiking />
-                    <hr />
-                    <DoziviGolteAktivnostiPohodi />
-                    <hr />
-                    <DoziviGolteAktivnostiPlezanje />
-                    <DoziviGolteKulinarika />
+                    <Routes>
+                        <Route path='/' exact element={<DoziviGolteAktivnosti />} />
+                        <Route path='/skiandboard' element={<DoziviGolteAktivnostiSmucanje />} />
+                        <Route path='/childrensplayground' element={<DoziviGolteAktivnostiOtroci />} />
+                        <Route path='/skischool' element={<DoziviGolteAktivnostiSola />} />
+                        <Route path='/skiservice' element={<DoziviGolteAktivnostiServis />} />
+                        <Route path='/skicompetitions' element={<DoziviGolteAktivnostiTekmovanja />} />
+                        <Route path='/sledding' element={<DoziviGolteAktivnostiSankanje />} />
+                        <Route path='/snowshoeing' element={<DoziviGolteAktivnostiKrpljanje />} />
+                        <Route path='/snowbiking' element={<DoziviGolteAktivnostiSnowbiking />} />
+                        <Route path='/hiking' element={<DoziviGolteAktivnostiPohodi />} />
+                        <Route path='/climbing' element={<DoziviGolteAktivnostiPlezanje />} />
+                        <Route path='/culinary' element={<DoziviGolteKulinarika />} />
+                        <Route path='/map' element={<DoziviGolteMap />} />
+                    </Routes> 
                 </section>
             </article>
         </>

@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-            <Route path='/experiencegolte' element={<DoziviGolte />} />
+            <Route path='/experiencegolte/*' element={<DoziviGolte />} />
         </Routes>
         <div id="bckgr"></div>
         <div className="animation-wrapper">
