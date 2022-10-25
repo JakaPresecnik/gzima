@@ -103,7 +103,7 @@ function Navigation () {
                     </ul>
                 </div>
                 <div id="logo">
-                    <img src={logo} />
+                    <NavLink to='/'><img src={logo} /></NavLink>
                 </div>
             </div>
         </header>

@@ -5,7 +5,7 @@ a
 header
     position: static
 .header
-    font-size: 1.2em
+    font-size: 1em
     z-index: 9
     width: 100%
     position: relative
@@ -14,11 +14,11 @@ header
     @media (max-width: $screen-xs)
         font-size: 1em
     @media (min-width: $screen-s)
-        font-size: 1.3em
+        font-size: 1.15em
     @media (min-width: $screen-l)
-        font-size: 1.4em
+        font-size: 1.25em
     @media (min-width: $screen-xxl)
-        font-size: 1.5em
+        font-size: 1.35em
     #nav
         height: 1.33em
         background: $zima-original
@@ -251,6 +251,8 @@ header
         img
             width: 7em
             padding-bottom: 2em
+            cursor: pointer
+            border-radius: 0.5em
             @media (min-width: $screen-l)
                 width: 9em
             @media (min-width: $screen-xl)

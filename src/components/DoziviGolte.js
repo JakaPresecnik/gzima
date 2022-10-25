@@ -1,5 +1,7 @@
+import { useEffect, useState } from "react";
 import { FormattedMessage } from 'react-intl';
 import { Route, Routes, NavLink } from 'react-router-dom'
+import { AiOutlineArrowUp } from 'react-icons/ai';
 import '../styles/dozivi-golte.sass';
 import DoziviGolteAktivnostiKrpljanje from './aktivnosti/DoziviGolteAktivnostiKrpljanje';
 import DoziviGolteAktivnostiOtroci from './aktivnosti/DoziviGolteAktivnostiOtroci';
@@ -16,6 +18,23 @@ import DoziviGolteKulinarika from './DoziviGolteKulinarika';
 import DoziviGolteMap from './DoziviGolteMap';
 
 function DoziviGolte () {
+    const [showTopBtn, setShowTopBtn] = useState(false);
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 400) {
+                setShowTopBtn(true);
+            } else {
+                setShowTopBtn(false);
+            }
+        });
+    }, []);
+
+    const goToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
     return (
         <>
             <h1 className='subheader'>
@@ -68,6 +87,9 @@ function DoziviGolte () {
                         <Route path='/map' element={<DoziviGolteMap />} />
                     </Routes> 
                 </section>
+                {showTopBtn && (<button className="to-top" onClick={goToTop}>
+                <AiOutlineArrowUp />
+            </button>)}
             </article>
         </>
     )

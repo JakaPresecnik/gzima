@@ -1,15 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import { CgInternal } from 'react-icons/cg';
 import { NavLink } from 'react-router-dom'
-import DoziviGolteAktivnostiKrpljanje from './aktivnosti/DoziviGolteAktivnostiKrpljanje';
-import DoziviGolteAktivnostiOtroci from './aktivnosti/DoziviGolteAktivnostiOtroci';
-import DoziviGolteAktivnostiPlezanje from './aktivnosti/DoziviGolteAktivnostiPlezanje';
-import DoziviGolteAktivnostiPohodi from './aktivnosti/DoziviGolteAktivnostiPohodi';
-import DoziviGolteAktivnostiSankanje from './aktivnosti/DoziviGolteAktivnostiSankanje';
-import DoziviGolteAktivnostiServis from './aktivnosti/DoziviGolteAktivnostiServis';
-import DoziviGolteAktivnostiSnowbiking from './aktivnosti/DoziviGolteAktivnostiSnowbiking';
-import DoziviGolteAktivnostiSola from './aktivnosti/DoziviGolteAktivnostiSola';
-import DoziviGolteAktivnostiTekmovanja from './aktivnosti/DoziviGolteAktivnostiTekmovanja';
 import smucanjeDeskanje from '../img/smucanje_in_deskanje.jpg';
 
 function DoziviGolteAktivnosti () {
