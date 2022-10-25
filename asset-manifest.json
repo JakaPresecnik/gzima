@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/gzima/static/css/main.e2c8131f.chunk.css",
-    "main.js": "/gzima/static/js/main.d2a86347.chunk.js",
-    "main.js.map": "/gzima/static/js/main.d2a86347.chunk.js.map",
-    "runtime-main.js": "/gzima/static/js/runtime-main.e70e109d.js",
-    "runtime-main.js.map": "/gzima/static/js/runtime-main.e70e109d.js.map",
-    "static/js/2.0832664d.chunk.js": "/gzima/static/js/2.0832664d.chunk.js",
-    "static/js/2.0832664d.chunk.js.map": "/gzima/static/js/2.0832664d.chunk.js.map",
-    "static/js/3.22256d91.chunk.js": "/gzima/static/js/3.22256d91.chunk.js",
-    "static/js/3.22256d91.chunk.js.map": "/gzima/static/js/3.22256d91.chunk.js.map",
+    "main.css": "/gzima/static/css/main.5ffe15d7.chunk.css",
+    "main.js": "/gzima/static/js/main.10778fd5.chunk.js",
+    "main.js.map": "/gzima/static/js/main.10778fd5.chunk.js.map",
+    "runtime-main.js": "/gzima/static/js/runtime-main.124fe6b0.js",
+    "runtime-main.js.map": "/gzima/static/js/runtime-main.124fe6b0.js.map",
+    "static/js/2.21b51073.chunk.js": "/gzima/static/js/2.21b51073.chunk.js",
+    "static/js/2.21b51073.chunk.js.map": "/gzima/static/js/2.21b51073.chunk.js.map",
+    "static/js/3.daddb40d.chunk.js": "/gzima/static/js/3.daddb40d.chunk.js",
+    "static/js/3.daddb40d.chunk.js.map": "/gzima/static/js/3.daddb40d.chunk.js.map",
     "index.html": "/gzima/index.html",
-    "static/css/main.e2c8131f.chunk.css.map": "/gzima/static/css/main.e2c8131f.chunk.css.map",
-    "static/js/2.0832664d.chunk.js.LICENSE.txt": "/gzima/static/js/2.0832664d.chunk.js.LICENSE.txt",
+    "static/css/main.5ffe15d7.chunk.css.map": "/gzima/static/css/main.5ffe15d7.chunk.css.map",
+    "static/js/2.21b51073.chunk.js.LICENSE.txt": "/gzima/static/js/2.21b51073.chunk.js.LICENSE.txt",
     "static/media/logo.6f29268e.png": "/gzima/static/media/logo.6f29268e.png",
     "static/media/animation.scss": "/gzima/static/media/placeholder.a738babc.jpg",
     "static/media/ski-lift.4982df95.svg": "/gzima/static/media/ski-lift.4982df95.svg",
     "static/media/smucanje_in_deskanje.5225a54d.jpg": "/gzima/static/media/smucanje_in_deskanje.5225a54d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e70e109d.js",
-    "static/js/2.0832664d.chunk.js",
-    "static/css/main.e2c8131f.chunk.css",
-    "static/js/main.d2a86347.chunk.js"
+    "static/js/runtime-main.124fe6b0.js",
+    "static/js/2.21b51073.chunk.js",
+    "static/css/main.5ffe15d7.chunk.css",
+    "static/js/main.10778fd5.chunk.js"
   ]
 }
